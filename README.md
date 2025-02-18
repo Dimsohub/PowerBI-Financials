@@ -48,4 +48,3 @@ This dashboard provides a convenient and interactive tool for analyzing the fina
 
 I hope this guide was helpful! If you have any questions, feel free to ask.
 
-Let me know if you need any further assistance!
