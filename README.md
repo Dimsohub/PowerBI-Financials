@@ -7,32 +7,34 @@ Hi everyone! In this guide, I'll walk you through the process I used to create a
 * Downloading the Data: I downloaded the CSV file containing the financial reports from the Kaggle website (https://www.kaggle.com/datasets/rish59/financial-statements-of-major-companies2009-2023).
 * Importing into Power BI: I opened Power BI Desktop and imported the downloaded CSV file using the "Get Data" -> "Text (CSV)" function.
 * Transforming Data in Power Query:
--I ensured that the columns with financial indicators (revenue, profit, etc.) were in numeric format, and the date column was in date format.
--I created new calculated columns, such as "Gross Profit Margin" and "Net Profit Margin".
+  * I ensured that the columns with financial indicators (revenue, profit, etc.) were in numeric format, and the date column was in date format.
+  * I created new calculated columns, such as "Gross Profit Margin" and "Net Profit Margin".
 
-Step 2: Creating Visualizations
+## Step 2: Creating Visualizations
 
-DAX Measures: For more complex calculations, I created measures using DAX:
-"Total Revenue", "Total Gross Profit", "Total Net Profit" - for aggregating data by companies and categories.
-"Average Profit Margin" - to calculate the average value across all companies.
-"Year-over-Year Change" - to track the dynamics of indicators over time.
-Visualizations:
-KPI Cards: To display key indicators ("Total Revenue", "Gross Profit", "Net Profit", "Profit Margin").
-Histograms: To compare revenue, gross profit, and net profit across categories and companies.
-Line Charts: To display trends of "Total Revenue", "EBITDA", and "Net Profit" over time.
-ROI by Company Chart: To visualize the return on investment for each company.
-Step 3: Interactivity and Design
+* DAX Measures: For more complex calculations, I created measures using DAX:
+  * "Total Revenue", "Total Gross Profit", "Total Net Profit" - for aggregating data by companies and categories.
+  * "Average Profit Margin" - to calculate the average value across all companies.
+  * "Year-over-Year Change" - to track the dynamics of indicators over time.
+* Visualizations:
+  * KPI Cards: To display key indicators ("Total Revenue", "Gross Profit", "Net Profit", "Profit Margin").
+  * Histograms: To compare revenue, gross profit, and net profit across categories and companies.
+  * Line Charts: To display trends of "Total Revenue", "EBITDA", and "Net Profit" over time.
+  * ROI by Company Chart: To visualize the return on investment for each company.
+    
+## Step 3: Interactivity and Design
 
-Slicers (Filters): I added slicers to filter data by:
-"Company"
-"Category"
-"Year"
-Cross-References: I configured interaction between visualizations so that when an element is selected in one visualization, others change automatically.
-Formatting:
-I gave clear names to all visualizations and controls.
-I used a consistent color scheme and fonts for a professional look.
-I placed the visualizations logically and conveniently for perception.
-Step 4: Analysis and Conclusions
+* Slicers (Filters): I added slicers to filter data by:
+  * "Company"
+  * "Category"
+  * "Year"
+* Cross-References: I configured interaction between visualizations so that when an element is selected in one visualization, others change automatically.
+* Formatting:
+  * I gave clear names to all visualizations and controls.
+  * I used a consistent color scheme and fonts for a professional look.
+  * I placed the visualizations logically and conveniently for perception.
+
+## Step 4: Analysis and Conclusions
 
 Based on the dashboard I created, I identified the following trends:
 
