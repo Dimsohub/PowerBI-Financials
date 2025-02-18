@@ -38,10 +38,11 @@ Hi everyone! In this guide, I'll walk you through the process I used to create a
 
 Based on the dashboard I created, I identified the following trends:
 
-Overall Growth: In general, there is growth in revenue and profit of major US companies from 2009 to 2022.
-Decline in 2023: However, in 2023, there is a noticeable decrease in key financial indicators, which may indicate unfavorable economic conditions or problems in certain industries.
-Profitability Differences: The profitability of different companies varies significantly, which is reflected in different values of profit margin and ROI.
-Impact of Categories: The choice of business category has a significant impact on the financial performance of the company.
+* Overall Growth: In general, there is growth in revenue and profit of major US companies from 2009 to 2022.
+* Decline in 2023: However, in 2023, there is a noticeable decrease in key financial indicators, which may indicate unfavorable economic conditions or problems in certain industries.
+* Profitability Differences: The profitability of different companies varies significantly, which is reflected in different values of profit margin and ROI.
+* Impact of Categories: The choice of business category has a significant impact on the financial performance of the company.
+
 Conclusion
 
 This dashboard provides a convenient and interactive tool for analyzing the financial performance of major US companies. It allows you to identify trends, compare companies and categories, and filter data for more detailed study.
