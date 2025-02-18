@@ -4,9 +4,9 @@ Hi everyone! In this guide, I'll walk you through the process I used to create a
 
 ## Step 1: Data Acquisition and Preparation
 
-*Downloading the Data: I downloaded the CSV file containing the financial reports from the Kaggle website (https://www.kaggle.com/datasets/rish59/financial-statements-of-major-companies2009-2023).
-*Importing into Power BI: I opened Power BI Desktop and imported the downloaded CSV file using the "Get Data" -> "Text (CSV)" function.
-*Transforming Data in Power Query:
+* Downloading the Data: I downloaded the CSV file containing the financial reports from the Kaggle website (https://www.kaggle.com/datasets/rish59/financial-statements-of-major-companies2009-2023).
+* Importing into Power BI: I opened Power BI Desktop and imported the downloaded CSV file using the "Get Data" -> "Text (CSV)" function.
+* Transforming Data in Power Query:
 -I ensured that the columns with financial indicators (revenue, profit, etc.) were in numeric format, and the date column was in date format.
 -I created new calculated columns, such as "Gross Profit Margin" and "Net Profit Margin".
 
